@@ -70,23 +70,31 @@ article img {
 .lua {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    width: 100%;
 }
 
 .lua img {
-    width: 400px;
-    max-width: 100%;
-    height: auto;
+    width: 450px !important;
+    max-width: 450px !important;
+    height: auto !important;
+    flex: 0 0 450px;
+}
+
+.lua > div {
+    flex: 1;
 }
 
 @media (max-width: 600px) {
     .lua {
         display: block;
+        width: 100%;
     }
 
     .lua img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 15px;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin-bottom: 20px;
     }
 }
