@@ -67,3 +67,26 @@ article img {
         margin-bottom: 15px;
     }
 }
+.lua {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lua img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .lua {
+        display: block;
+    }
+
+    .lua img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
