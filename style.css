@@ -46,3 +46,24 @@ h3 {
         font-size: 16px;
     }
 }
+article {
+    margin-bottom: 30px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    article[style*="display: flex"] {
+        display: block !important;
+    }
+
+    article[style*="display: flex"] img {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        margin-bottom: 15px;
+    }
+}
