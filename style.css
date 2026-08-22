@@ -70,43 +70,33 @@ article img {
 .lua {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     width: 100%;
 }
 
 .lua img {
-    width: 280px;
+    width: 320px;
     height: auto;
     flex-shrink: 0;
 }
 
-.lua div {
+.lua-texto {
     flex: 1;
 }
 
 @media (max-width: 600px) {
     .lua {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+        display: block;
     }
 
     .lua img {
-        width: 130px;
+        display: block;
+        width: 100%;
         height: auto;
-        flex-shrink: 0;
+        margin-bottom: 20px;
     }
 
-    .lua div {
-        min-width: 0;
-    }
-
-    .lua h2 {
-        font-size: 18px;
-    }
-
-    .lua p {
-        font-size: 14px;
-        line-height: 1.4;
+    .lua-texto {
+        width: 100%;
     }
 }
